@@ -12,7 +12,6 @@
     nul === undefined // false
     Therefore, null and undefined are equal but not identical.
 
-
 > typeof null = Object  
 > typeof undefined = undefined
 
@@ -26,3 +25,9 @@
 ### Static Typing v/s Dynamic Typing
 
 > Statically typed languages do type checking at compile-time whereas dynamically typed languages do type checking at run-time. So, JavaScript is a dynamically typed language.
+
+### Data Types
+
+> Primitive: String, Number, Boolean, BigInt, null, undefined, Symbol (all of these use stack memory)
+
+> Non-primitive: Array, Object, Functions (all of these use heap memory)
