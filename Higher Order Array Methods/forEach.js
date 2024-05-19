@@ -30,3 +30,6 @@ arr.forEach((value, index, array) => {
 // is that the first argument will always be value, the second index
 // and the third array, no matter what the parameter names are in the
 // function declaration
+
+// forEach does can't return any value, it's designed to do;
+// if you return something inside the callback, it does nothing with it
