@@ -37,7 +37,7 @@ sampleString.replace(subString, anotherSubString);
 // but returns a new string with changes made; it changes only the first occurence
 
 sampleString.replaceAll(subString, anotherSubString);
-// sample replace() but changes all occurences of subString with anotherSubString
+// same as replace() but changes all occurences of subString with anotherSubString
 
 anotherSampleString.split(", ");
 // splits the string into an array of substrings based on the separator passed,
